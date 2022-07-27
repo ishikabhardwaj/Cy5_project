@@ -29,6 +29,8 @@ for i in user:
         access_key={}
         access_key['AccessKeyId']= access_key_response['AccessKeyMetadata'][j]['AccessKeyId']
         access_key['CreateDate']= access_key_response['AccessKeyMetadata'][j]['CreateDate']
+
+        # Get last use of access key
         last_used = iam.get_access_key_last_used(
             AccessKeyId=access_key_response['AccessKeyMetadata'][j]['AccessKeyId']
         )
@@ -40,6 +42,7 @@ for i in user:
 
 # Serializing json
 user_json = json.dumps(user,  indent=4, default=str)
+print(user_json)
 
  
 # Writing to sample.json
