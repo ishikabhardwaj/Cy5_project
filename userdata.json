@@ -1,0 +1,47 @@
+{
+    "ishikabhardwaj7601": {
+        "PasswordLastUsed": "2022-07-27 10:41:38+00:00",
+        "AccessKeyData": {
+            "0": {
+                "AccessKeyId": "AKIAYYQD6BA5E5CSLAGN",
+                "CreateDate": "2022-02-02 08:34:39+00:00",
+                "LastUsed": {
+                    "LastUsedDate": "2022-03-08 10:52:00+00:00",
+                    "ServiceName": "ssm",
+                    "Region": "ap-south-1"
+                }
+            },
+            "1": {
+                "AccessKeyId": "AKIAYYQD6BA5NUJFSDUJ",
+                "CreateDate": "2022-07-26 12:10:46+00:00",
+                "LastUsed": {
+                    "LastUsedDate": "2022-07-27 12:13:00+00:00",
+                    "ServiceName": "iam",
+                    "Region": "us-east-1"
+                }
+            }
+        }
+    },
+    "trails": {
+        "PasswordLastUsed": "2022-07-27 10:58:42+00:00",
+        "AccessKeyData": {
+            "0": {
+                "AccessKeyId": "AKIAYYQD6BA5DMUNXYBO",
+                "CreateDate": "2021-05-26 10:47:46+00:00",
+                "LastUsed": {
+                    "LastUsedDate": "2021-06-04 06:15:00+00:00",
+                    "ServiceName": "s3",
+                    "Region": "us-east-2"
+                }
+            },
+            "1": {
+                "AccessKeyId": "AKIAYYQD6BA5LW6UINUV",
+                "CreateDate": "2022-07-27 10:50:27+00:00",
+                "LastUsed": {
+                    "ServiceName": "N/A",
+                    "Region": "N/A"
+                }
+            }
+        }
+    }
+}
